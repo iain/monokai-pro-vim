@@ -1,0 +1,66 @@
+{
+  "name": "monokai-redux-vscode",
+  "displayName": "Monokai Redux",
+  "description": "Beautiful Monokai Redux theme variants for VS Code",
+  "version": "1.0.0",
+  "publisher": "vinitkumar",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "monokai",
+    "redux",
+    "theme",
+    "dark",
+    "light",
+    "color-scheme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monokai Redux",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai-redux.json"
+      },
+      {
+        "label": "Monokai Redux Classic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai-redux-classic.json"
+      },
+      {
+        "label": "Monokai Redux Machine",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai-redux-machine.json"
+      },
+      {
+        "label": "Monokai Redux Octagon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai-redux-octagon.json"
+      },
+      {
+        "label": "Monokai Redux Ristretto",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai-redux-ristretto.json"
+      },
+      {
+        "label": "Monokai Redux Spectrum",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai-redux-spectrum.json"
+      },
+      {
+        "label": "Monokai Redux Light",
+        "uiTheme": "vs",
+        "path": "./themes/monokai-redux-light.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vinitkumar/monokai-pro-vim.git"
+  },
+  "license": "MIT",
+  "author": "Vinit Kumar"
+}
