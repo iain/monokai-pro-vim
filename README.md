@@ -131,6 +131,26 @@ A light variant for daytime coding.
 
 MIT License - see [LICENSE](LICENSE) file for details.
 
+## Obsidian Themes
+
+This repository also includes Obsidian themes based on all Monokai Pro variants:
+
+- **obsidian-theme** - Default Monokai Pro
+- **obsidian-theme-classic** - Classic Monokai colors
+- **obsidian-theme-machine** - Dark blue variant
+- **obsidian-theme-octagon** - Dark purple variant
+- **obsidian-theme-ristretto** - Dark brown variant
+- **obsidian-theme-spectrum** - True black background
+- **obsidian-theme-light** - Light variant
+
+### Installation
+
+1. Copy the desired theme folder to your vault's `.obsidian/themes/` directory
+2. Open Obsidian Settings → Appearance
+3. Select the theme from the dropdown
+
+Alternatively, each theme folder contains a README with detailed installation instructions.
+
 ## Contributing
 
 Feel free to open issues or submit pull requests if you find any problems or have suggestions for improvements.

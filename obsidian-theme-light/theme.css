@@ -1,0 +1,235 @@
+/*
+Monokai Pro Light Theme for Obsidian
+A light variant for daytime coding
+Author: Vinit Kumar
+*/
+
+.theme-light {
+  --background-primary: #faf4f2;
+  --background-primary-alt: #ede7e5;
+  --background-secondary: #d3cdcc;
+  --background-secondary-alt: #d3cdcc;
+  --background-modifier-border: #bfb9ba;
+  --background-modifier-form-field: #d3cdcc;
+  --background-modifier-form-field-highlighted: #d3cdcc;
+  --background-modifier-box-shadow: rgba(0, 0, 0, 0.1);
+  --background-modifier-success: #269d69;
+  --background-modifier-error: #e14775;
+  --background-modifier-error-rgb: 225, 71, 117;
+  --background-modifier-error-hover: #e14775;
+  --background-modifier-cover: rgba(255, 255, 255, 0.8);
+  --text-accent: #1c8ca8;
+  --text-accent-hover: #1c8ca8;
+  --text-normal: #29242a;
+  --text-muted: #a59fa0;
+  --text-muted-rgb: 165, 159, 160;
+  --text-faint: #bfb9ba;
+  --text-error: #e14775;
+  --text-error-hover: #e14775;
+  --text-highlight-bg: rgba(204, 122, 10, 0.3);
+  --text-highlight-bg-active: rgba(225, 96, 50, 0.3);
+  --text-selection: rgba(211, 205, 204, 0.99);
+  --text-on-accent: #faf4f2;
+  --interactive-normal: #d3cdcc;
+  --interactive-hover: #bfb9ba;
+  --interactive-accent: #1c8ca8;
+  --interactive-accent-rgb: 28, 140, 168;
+  --interactive-accent-hover: #1c8ca8;
+  --interactive-success: #269d69;
+  --scrollbar-active-thumb-bg: rgba(165, 159, 160, 0.3);
+  --scrollbar-bg: rgba(165, 159, 160, 0.05);
+  --scrollbar-thumb-bg: rgba(165, 159, 160, 0.15);
+  --highlight-mix-blend-mode: darken;
+
+  --color-red: #e14775;
+  --color-orange: #e16032;
+  --color-yellow: #cc7a0a;
+  --color-green: #269d69;
+  --color-cyan: #1c8ca8;
+  --color-blue: #1c8ca8;
+  --color-purple: #7058be;
+  --color-pink: #e14775;
+}
+
+.cm-s-obsidian .cm-header {
+  color: var(--color-red);
+  font-weight: 600;
+}
+
+.cm-s-obsidian .cm-strong {
+  color: var(--color-orange);
+  font-weight: bold;
+}
+
+.cm-s-obsidian .cm-em {
+  color: var(--color-yellow);
+  font-style: italic;
+}
+
+.cm-s-obsidian .cm-link {
+  color: var(--color-cyan);
+}
+
+.cm-s-obsidian .cm-url {
+  color: var(--color-cyan);
+}
+
+.cm-s-obsidian .cm-tag {
+  color: var(--color-purple);
+}
+
+.cm-s-obsidian .cm-quote {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.cm-s-obsidian .cm-comment {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.cm-s-obsidian .cm-string {
+  color: var(--color-yellow);
+}
+
+.cm-s-obsidian .cm-keyword {
+  color: var(--color-red);
+}
+
+.cm-s-obsidian .cm-variable-2 {
+  color: var(--color-cyan);
+}
+
+.cm-s-obsidian .cm-variable-3 {
+  color: var(--color-green);
+}
+
+.cm-s-obsidian .cm-def {
+  color: var(--color-green);
+}
+
+.cm-s-obsidian .cm-number {
+  color: var(--color-purple);
+}
+
+.cm-s-obsidian .cm-attribute {
+  color: var(--color-green);
+}
+
+.cm-s-obsidian .cm-property {
+  color: var(--text-normal);
+}
+
+.markdown-preview-view code,
+.cm-inline-code {
+  color: var(--color-green);
+  background-color: var(--background-secondary);
+}
+
+.markdown-preview-view pre code {
+  color: var(--text-normal);
+}
+
+.cm-s-obsidian .cm-formatting-list {
+  color: var(--color-red);
+}
+
+.markdown-preview-view .task-list-item-checkbox {
+  filter: hue-rotate(180deg);
+}
+
+.markdown-preview-view a,
+.cm-hmd-internal-link {
+  color: var(--color-cyan);
+}
+
+.markdown-preview-view a:hover {
+  color: var(--color-cyan);
+  text-decoration: underline;
+}
+
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+  color: var(--color-red);
+  font-weight: 600;
+}
+
+.tag {
+  color: var(--color-purple);
+  background-color: var(--background-secondary);
+}
+
+.tag:hover {
+  color: var(--color-purple);
+  background-color: var(--background-modifier-border);
+}
+
+.nav-file-title,
+.nav-folder-title {
+  color: var(--text-normal);
+}
+
+.nav-file-title.is-active {
+  background-color: var(--background-secondary);
+  color: var(--text-normal);
+}
+
+.graph-view.color-fill-tag {
+  color: var(--color-purple);
+}
+
+.graph-view.color-fill-attachment {
+  color: var(--color-orange);
+}
+
+.graph-view.color-fill-unresolved {
+  color: var(--text-muted);
+}
+
+.search-result-file-match {
+  color: var(--color-yellow);
+}
+
+.search-result-file-matched-text {
+  background-color: rgba(204, 122, 10, 0.3);
+  color: var(--text-normal);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb-bg);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scrollbar-active-thumb-bg);
+}
+
+::selection {
+  background-color: var(--text-selection);
+}
+
+.cm-active {
+  background-color: var(--background-secondary);
+}
+
+.markdown-preview-view table {
+  border-color: var(--background-modifier-border);
+}
+
+.markdown-preview-view th {
+  color: var(--color-red);
+  font-weight: 600;
+  background-color: var(--background-secondary);
+}
+
+.markdown-preview-view blockquote {
+  border-left-color: var(--text-muted);
+  color: var(--text-muted);
+}
+
+.markdown-preview-view hr {
+  border-color: var(--background-modifier-border);
+}

@@ -1,0 +1,292 @@
+/*
+Monokai Pro Theme for Obsidian
+Based on the Monokai Pro Vim colorscheme
+Author: Vinit Kumar
+Repository: https://github.com/vinitkumar/monokai-pro-vim
+*/
+
+.theme-dark {
+  /* Monokai Pro Color Palette */
+  --background-primary: #2d2a2e;
+  --background-primary-alt: #221f22;
+  --background-secondary: #403e41;
+  --background-secondary-alt: #403e41;
+  --background-modifier-border: #5b595c;
+  --background-modifier-form-field: #403e41;
+  --background-modifier-form-field-highlighted: #403e41;
+  --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
+  --background-modifier-success: #a9dc76;
+  --background-modifier-error: #ff6188;
+  --background-modifier-error-rgb: 255, 97, 136;
+  --background-modifier-error-hover: #ff6188;
+  --background-modifier-cover: rgba(0, 0, 0, 0.8);
+  --text-accent: #78dce8;
+  --text-accent-hover: #78dce8;
+  --text-normal: #fcfcfa;
+  --text-muted: #727072;
+  --text-muted-rgb: 114, 112, 114;
+  --text-faint: #5b595c;
+  --text-error: #ff6188;
+  --text-error-hover: #ff6188;
+  --text-highlight-bg: #ffd866;
+  --text-highlight-bg-active: #fc9867;
+  --text-selection: rgba(64, 62, 65, 0.99);
+  --text-on-accent: #2d2a2e;
+  --interactive-normal: #403e41;
+  --interactive-hover: #5b595c;
+  --interactive-accent: #78dce8;
+  --interactive-accent-rgb: 120, 220, 232;
+  --interactive-accent-hover: #78dce8;
+  --interactive-success: #a9dc76;
+  --scrollbar-active-thumb-bg: rgba(114, 112, 114, 0.2);
+  --scrollbar-bg: rgba(114, 112, 114, 0.05);
+  --scrollbar-thumb-bg: rgba(114, 112, 114, 0.1);
+  --highlight-mix-blend-mode: lighten;
+
+  /* Syntax Colors */
+  --color-red: #ff6188;
+  --color-orange: #fc9867;
+  --color-yellow: #ffd866;
+  --color-green: #a9dc76;
+  --color-cyan: #78dce8;
+  --color-blue: #78dce8;
+  --color-purple: #ab9df2;
+  --color-pink: #ff6188;
+}
+
+.theme-light {
+  --background-primary: #fcfcfa;
+  --background-primary-alt: #f5f5f5;
+  --background-secondary: #e8e8e8;
+  --background-secondary-alt: #e8e8e8;
+  --background-modifier-border: #c1c0c0;
+  --background-modifier-form-field: #e8e8e8;
+  --background-modifier-form-field-highlighted: #e8e8e8;
+  --background-modifier-box-shadow: rgba(0, 0, 0, 0.1);
+  --background-modifier-success: #a9dc76;
+  --background-modifier-error: #ff6188;
+  --background-modifier-error-rgb: 255, 97, 136;
+  --background-modifier-error-hover: #ff6188;
+  --background-modifier-cover: rgba(255, 255, 255, 0.8);
+  --text-accent: #078aaf;
+  --text-accent-hover: #078aaf;
+  --text-normal: #2d2a2e;
+  --text-muted: #727072;
+  --text-muted-rgb: 114, 112, 114;
+  --text-faint: #a8a6a9;
+  --text-error: #ff6188;
+  --text-error-hover: #ff6188;
+  --text-highlight-bg: rgba(255, 216, 102, 0.4);
+  --text-highlight-bg-active: rgba(252, 152, 103, 0.4);
+  --text-selection: rgba(232, 232, 232, 0.99);
+  --text-on-accent: #fcfcfa;
+  --interactive-normal: #e8e8e8;
+  --interactive-hover: #c1c0c0;
+  --interactive-accent: #078aaf;
+  --interactive-accent-rgb: 7, 138, 175;
+  --interactive-accent-hover: #078aaf;
+  --interactive-success: #a9dc76;
+  --scrollbar-active-thumb-bg: rgba(114, 112, 114, 0.3);
+  --scrollbar-bg: rgba(114, 112, 114, 0.05);
+  --scrollbar-thumb-bg: rgba(114, 112, 114, 0.15);
+  --highlight-mix-blend-mode: darken;
+}
+
+/* Editor Styles */
+.cm-s-obsidian .cm-header {
+  color: var(--color-red);
+  font-weight: 600;
+}
+
+.cm-s-obsidian .cm-strong {
+  color: var(--color-orange);
+  font-weight: bold;
+}
+
+.cm-s-obsidian .cm-em {
+  color: var(--color-yellow);
+  font-style: italic;
+}
+
+.cm-s-obsidian .cm-link {
+  color: var(--color-cyan);
+}
+
+.cm-s-obsidian .cm-url {
+  color: var(--color-cyan);
+}
+
+.cm-s-obsidian .cm-tag {
+  color: var(--color-purple);
+}
+
+.cm-s-obsidian .cm-quote {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.cm-s-obsidian .cm-comment {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.cm-s-obsidian .cm-string {
+  color: var(--color-yellow);
+}
+
+.cm-s-obsidian .cm-keyword {
+  color: var(--color-red);
+}
+
+.cm-s-obsidian .cm-variable-2 {
+  color: var(--color-cyan);
+}
+
+.cm-s-obsidian .cm-variable-3 {
+  color: var(--color-green);
+}
+
+.cm-s-obsidian .cm-def {
+  color: var(--color-green);
+}
+
+.cm-s-obsidian .cm-number {
+  color: var(--color-purple);
+}
+
+.cm-s-obsidian .cm-attribute {
+  color: var(--color-green);
+}
+
+.cm-s-obsidian .cm-property {
+  color: var(--text-normal);
+}
+
+/* Code Blocks */
+.markdown-preview-view code,
+.cm-inline-code {
+  color: var(--color-green);
+  background-color: var(--background-secondary);
+}
+
+.markdown-preview-view pre code {
+  color: var(--text-normal);
+}
+
+/* Lists */
+.cm-s-obsidian .cm-formatting-list {
+  color: var(--color-red);
+}
+
+/* Checkboxes */
+.markdown-preview-view .task-list-item-checkbox {
+  filter: hue-rotate(180deg);
+}
+
+/* Links */
+.markdown-preview-view a,
+.cm-hmd-internal-link {
+  color: var(--color-cyan);
+}
+
+.markdown-preview-view a:hover {
+  color: var(--color-cyan);
+  text-decoration: underline;
+}
+
+/* Headings */
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+  color: var(--color-red);
+  font-weight: 600;
+}
+
+/* Tags */
+.tag {
+  color: var(--color-purple);
+  background-color: var(--background-secondary);
+}
+
+.tag:hover {
+  color: var(--color-purple);
+  background-color: var(--background-modifier-border);
+}
+
+/* Sidebar */
+.nav-file-title,
+.nav-folder-title {
+  color: var(--text-normal);
+}
+
+.nav-file-title.is-active {
+  background-color: var(--background-secondary);
+  color: var(--text-normal);
+}
+
+/* Graph View */
+.graph-view.color-fill-tag {
+  color: var(--color-purple);
+}
+
+.graph-view.color-fill-attachment {
+  color: var(--color-orange);
+}
+
+.graph-view.color-fill-unresolved {
+  color: var(--text-muted);
+}
+
+/* Search */
+.search-result-file-match {
+  color: var(--color-yellow);
+}
+
+.search-result-file-matched-text {
+  background-color: var(--color-yellow);
+  color: var(--background-primary);
+}
+
+/* Scrollbars */
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb-bg);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scrollbar-active-thumb-bg);
+}
+
+/* Selection */
+::selection {
+  background-color: var(--text-selection);
+}
+
+/* Active Line */
+.cm-active {
+  background-color: var(--background-secondary);
+}
+
+/* Tables */
+.markdown-preview-view table {
+  border-color: var(--background-modifier-border);
+}
+
+.markdown-preview-view th {
+  color: var(--color-red);
+  font-weight: 600;
+  background-color: var(--background-secondary);
+}
+
+/* Blockquotes */
+.markdown-preview-view blockquote {
+  border-left-color: var(--text-muted);
+  color: var(--text-muted);
+}
+
+/* Horizontal Rule */
+.markdown-preview-view hr {
+  border-color: var(--background-modifier-border);
+}

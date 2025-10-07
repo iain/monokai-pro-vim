@@ -1,0 +1,235 @@
+/*
+Monokai Pro Classic Theme for Obsidian
+Classic Monokai colors that you know and love
+Author: Vinit Kumar
+*/
+
+.theme-dark {
+  --background-primary: #272822;
+  --background-primary-alt: #1d1e19;
+  --background-secondary: #3b3c35;
+  --background-secondary-alt: #3b3c35;
+  --background-modifier-border: #57584f;
+  --background-modifier-form-field: #3b3c35;
+  --background-modifier-form-field-highlighted: #3b3c35;
+  --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
+  --background-modifier-success: #a6e22e;
+  --background-modifier-error: #f92672;
+  --background-modifier-error-rgb: 249, 38, 114;
+  --background-modifier-error-hover: #f92672;
+  --background-modifier-cover: rgba(0, 0, 0, 0.8);
+  --text-accent: #66d9ef;
+  --text-accent-hover: #66d9ef;
+  --text-normal: #fdfff1;
+  --text-muted: #6e7066;
+  --text-muted-rgb: 110, 112, 102;
+  --text-faint: #57584f;
+  --text-error: #f92672;
+  --text-error-hover: #f92672;
+  --text-highlight-bg: #e6db74;
+  --text-highlight-bg-active: #fd971f;
+  --text-selection: rgba(59, 60, 53, 0.99);
+  --text-on-accent: #272822;
+  --interactive-normal: #3b3c35;
+  --interactive-hover: #57584f;
+  --interactive-accent: #66d9ef;
+  --interactive-accent-rgb: 102, 217, 239;
+  --interactive-accent-hover: #66d9ef;
+  --interactive-success: #a6e22e;
+  --scrollbar-active-thumb-bg: rgba(110, 112, 102, 0.2);
+  --scrollbar-bg: rgba(110, 112, 102, 0.05);
+  --scrollbar-thumb-bg: rgba(110, 112, 102, 0.1);
+  --highlight-mix-blend-mode: lighten;
+
+  --color-red: #f92672;
+  --color-orange: #fd971f;
+  --color-yellow: #e6db74;
+  --color-green: #a6e22e;
+  --color-cyan: #66d9ef;
+  --color-blue: #66d9ef;
+  --color-purple: #ae81ff;
+  --color-pink: #f92672;
+}
+
+.cm-s-obsidian .cm-header {
+  color: var(--color-red);
+  font-weight: 600;
+}
+
+.cm-s-obsidian .cm-strong {
+  color: var(--color-orange);
+  font-weight: bold;
+}
+
+.cm-s-obsidian .cm-em {
+  color: var(--color-yellow);
+  font-style: italic;
+}
+
+.cm-s-obsidian .cm-link {
+  color: var(--color-cyan);
+}
+
+.cm-s-obsidian .cm-url {
+  color: var(--color-cyan);
+}
+
+.cm-s-obsidian .cm-tag {
+  color: var(--color-purple);
+}
+
+.cm-s-obsidian .cm-quote {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.cm-s-obsidian .cm-comment {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.cm-s-obsidian .cm-string {
+  color: var(--color-yellow);
+}
+
+.cm-s-obsidian .cm-keyword {
+  color: var(--color-red);
+}
+
+.cm-s-obsidian .cm-variable-2 {
+  color: var(--color-cyan);
+}
+
+.cm-s-obsidian .cm-variable-3 {
+  color: var(--color-green);
+}
+
+.cm-s-obsidian .cm-def {
+  color: var(--color-green);
+}
+
+.cm-s-obsidian .cm-number {
+  color: var(--color-purple);
+}
+
+.cm-s-obsidian .cm-attribute {
+  color: var(--color-green);
+}
+
+.cm-s-obsidian .cm-property {
+  color: var(--text-normal);
+}
+
+.markdown-preview-view code,
+.cm-inline-code {
+  color: var(--color-green);
+  background-color: var(--background-secondary);
+}
+
+.markdown-preview-view pre code {
+  color: var(--text-normal);
+}
+
+.cm-s-obsidian .cm-formatting-list {
+  color: var(--color-red);
+}
+
+.markdown-preview-view .task-list-item-checkbox {
+  filter: hue-rotate(180deg);
+}
+
+.markdown-preview-view a,
+.cm-hmd-internal-link {
+  color: var(--color-cyan);
+}
+
+.markdown-preview-view a:hover {
+  color: var(--color-cyan);
+  text-decoration: underline;
+}
+
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+  color: var(--color-red);
+  font-weight: 600;
+}
+
+.tag {
+  color: var(--color-purple);
+  background-color: var(--background-secondary);
+}
+
+.tag:hover {
+  color: var(--color-purple);
+  background-color: var(--background-modifier-border);
+}
+
+.nav-file-title,
+.nav-folder-title {
+  color: var(--text-normal);
+}
+
+.nav-file-title.is-active {
+  background-color: var(--background-secondary);
+  color: var(--text-normal);
+}
+
+.graph-view.color-fill-tag {
+  color: var(--color-purple);
+}
+
+.graph-view.color-fill-attachment {
+  color: var(--color-orange);
+}
+
+.graph-view.color-fill-unresolved {
+  color: var(--text-muted);
+}
+
+.search-result-file-match {
+  color: var(--color-yellow);
+}
+
+.search-result-file-matched-text {
+  background-color: var(--color-yellow);
+  color: var(--background-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb-bg);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scrollbar-active-thumb-bg);
+}
+
+::selection {
+  background-color: var(--text-selection);
+}
+
+.cm-active {
+  background-color: var(--background-secondary);
+}
+
+.markdown-preview-view table {
+  border-color: var(--background-modifier-border);
+}
+
+.markdown-preview-view th {
+  color: var(--color-red);
+  font-weight: 600;
+  background-color: var(--background-secondary);
+}
+
+.markdown-preview-view blockquote {
+  border-left-color: var(--text-muted);
+  color: var(--text-muted);
+}
+
+.markdown-preview-view hr {
+  border-color: var(--background-modifier-border);
+}
