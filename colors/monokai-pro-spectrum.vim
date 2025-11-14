@@ -110,6 +110,7 @@ hi Underlined guifg=#5ad4e6 gui=underline
 hi Ignore guifg=#69676c gui=NONE
 hi Error guifg=#fc618d guibg=NONE gui=NONE
 hi Todo guifg=#948ae3 guibg=NONE gui=bold
+hi NonText guifg=#69676c gui=NONE
 
 " Language-specific highlights
 hi htmlTag guifg=#f7f1ff gui=NONE
