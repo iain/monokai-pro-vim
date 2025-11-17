@@ -207,6 +207,8 @@ hi NERDTreeDirSlash guifg=#78dce8 gui=NONE
 hi NERDTreeExecFile guifg=#fcfcfa gui=NONE
 
 " Terminal colors
+hi Terminal guifg=#fcfcfa guibg=#2d2a2e gui=NONE
+
 if has('nvim')
   let g:terminal_color_0 = '#2d2a2e'
   let g:terminal_color_1 = '#ff6188'
